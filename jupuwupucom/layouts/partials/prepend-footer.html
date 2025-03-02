@@ -1,0 +1,29 @@
+<div class="py-2 w-100 slime-container" style="position: relative; z-index: -1; width: 80%;">
+  <img src="/img/slime-happy-fast-2x.gif" alt="Moving Image" style="animation: moveFooterSlime 15s linear infinite; pointer-events: none;">
+</div>
+
+<style>
+@keyframes moveFooterSlime {
+  0% {
+    transform: translateX(0) scaleX(-1);
+  }
+  49.9% {
+    transform: translateX(calc(var(--container-width) - 64px)) scaleX(-1);
+  }
+  50% {
+    transform: translateX(calc(var(--container-width) - 64px)) scaleX(1);
+  }
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}
+</style>
+
+<script>
+  function updateSlimeWidth() {
+    document.documentElement.style.setProperty('--container-width', document.querySelector('.slime-container').offsetWidth + 'px');
+  }
+  updateSlimeWidth();
+
+  window.addEventListener('resize', updateSlimeWidth);
+</script>
