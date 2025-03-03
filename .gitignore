@@ -1,15 +1,14 @@
 # Hugo Specifics
-/public/  # Compiled site output
-/resources/_gen/  # Generated resources (images, etc.)
-/archetypes/  # Default content archetypes (optional, if you don't want to track changes)
-/config.toml # Optional, ignore if sensitive information is included. Consider using environment variables instead
-/data/ # Optional, ignore if sensitive information is included.
-/themes/<your-theme>/  # Optional, if you use a theme as a submodule, don't include it. Otherwise, ignore it.
-/layouts/_default/_markup/render-*.html  # Render Hook templates (ignore if you don't need to track)
+/jupuwupucom/public/
+/jupuwupucom/resources/_gen/ 
+/jupuwupucom/archetypes/
+/jupuwupucom/config.toml 
+/jupuwupucom/data/
+/jupuwupucom/layouts/_default/_markup/render-*.html 
 
 # Editor Specifics
-.DS_Store  # macOS Finder metadata
-.vscode/  # Visual Studio Code settings (optional)
+.DS_Store
+.vscode/
 *.sublime-project
 *.sublime-workspace
 
@@ -23,19 +22,19 @@ ehthumbs.db
 *.bak # Backup files
 
 # Deployment specific
-.env # Environment variables (critical to ignore if present)
-/netlify/  # Netlify deployment files (if applicable)
-/.idea/ # IntelliJ IDEA project files
-/.gradle/ # Gradle project files
-/build/ # Build artifacts
-/dist/ # Distribution files
+.env
+/netlify/  
+/.idea/
+/.gradle/
+/build/
+/dist/
 
 # Node.js and npm
 node_modules/
-package-lock.json # or yarn.lock if you use Yarn
+package-lock.json
 
 # General
-*.log # Log files
-*.tmp # Temporary files
-*.cache # Cache files
-*.diff # Diff files
+*.log 
+*.tmp
+*.cache
+*.diff
