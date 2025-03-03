@@ -9,5 +9,15 @@
     <copyright>© 2025 Jupuwupu</copyright>
     <lastBuildDate>Sun, 02 Mar 2025 13:56:14 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Hello Pixels</title>
+      <link>http://localhost:1313/posts/hello-pixels/</link>
+      <pubDate>Sun, 02 Mar 2025 13:56:14 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello-pixels/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
